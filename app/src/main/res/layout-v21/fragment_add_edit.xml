@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#808080"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:cardCornerRadius="6dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="8dp"
+            tools:context=".addEdit_fragment">
+
+            <EditText
+                android:id="@+id/addedit_task_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/task_item_shape"
+                android:ems="10"
+                android:hint="@string/addedit_name_hint"
+                android:inputType="textNoSuggestions"
+                android:maxLength="26"
+                android:paddingStart="8dp"
+                android:paddingEnd="4dp"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/addedit_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
+                android:background="@drawable/task_item_shape"
+                android:ems="10"
+                android:hint="@string/addedit_description_hint"
+                android:inputType="textMultiLine"
+                android:maxLength="256"
+                android:paddingStart="8dp"
+                android:paddingEnd="4dp"
+                android:textSize="24sp" />
+
+            <EditText
+                android:id="@+id/addedit_sortOrder"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/task_item_shape"
+                android:ems="10"
+                android:hint="@string/addedit_sortOrder_hint"
+                android:inputType="number"
+                android:paddingStart="8dp"
+                android:paddingEnd="4dp"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/addedit_saveButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_gravity="center_horizontal"
+                app:cornerRadius = "20dp"
+                android:backgroundTint="#8692F7"
+                android:drawableStart="@android:drawable/ic_menu_save"
+                android:maxLength="9"
+                android:paddingStart="8dp"
+                android:text="@string/addedit_save_btn"
+                android:textSize="20sp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

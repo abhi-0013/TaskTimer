@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Task Timer</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="Main_menue_addTask">Add Task </string>
+    <string name="Main_menue_showDuration">Show Duration</string>
+    <string name="main_menue_show_about">About</string>
+    <string name="Main_menue_generate">Generate</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="no_task_entered">No Task Entered</string>
+    <string name="edit_button_description">Button for editing the task entered</string>
+    <string name="delete_button_description">Button for deleting the task</string>
+    <string name="addedit_name_hint">Enter name of Task</string>
+    <string name="addedit_description_hint">Enter description for Task</string>
+    <string name="addedit_sortOrder_hint">Sorting task from low to high(higher number higher priority)</string>
+    <string name="addedit_save_btn">Save</string>
+    <string name="title_activity_add_edit">add_edit_activity</string>
+    <string name="Instruction_name">\"Name of the added task will be displayed here \"</string>
+    <string name="Instruction_description">For displaying the description of the task. for adding task please click on the add button on toolbar</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="Dialog_deleteMessage">Deleting will also delete all timing data associated with task id %1$d: %2$s.</string>
+    <string name="Dialog_Button_delete_positve">DELETE</string>
+    <string name="Dialog_edit_save">You have unsaved changes. Do you want to abandon your changes, or continue editing?</string>
+    <string name="Dialog_button_edit_save">Continue Editing</string>
+    <string name="Dialog_button_edit_save_negative">Abondon Changes</string>
+    <string name="about_mySelf">Created by <b> <font color="#FF37DA">Abhishek Chauhan</font></b> </string>
+    <string name="about_my_contact">For Contact please Email at abhushek975@gmail.com</string>
+    <string name="aout_dialog_description">This app was created on Solely purpose of learning and referenced from a udemy course intructor proect</string>
+    <string name="current_timing_task">Timing %1$s</string>
+    <string name="td_text_name">Task Name</string>
+    <string name="td_text_date">Date</string>
+    <string name="td_text_duration">Duration</string>
+    <string name="td_text_description">Description</string>
+    <string name="title_activity_duration_report">DurationReport</string>
+    <string name="rm_title_filter_day">Show day</string>
+    <string name="rm_title_filter_week">Show week</string>
+    <string name="rm_title_filter_date">Set report date</string>
+    <string name="rm_title_delete">Delete old timings</string>
+    <string name="delete_timings_message">Are you sure you want to delete all timings before %1s?</string>
+    <string name="date_title_delete">Select date to delete up to</string>
+</resources>

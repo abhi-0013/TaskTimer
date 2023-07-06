@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <EditText
+        android:id="@+id/addedit_task_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/addedit_name_hint"
+        android:inputType="textNoSuggestions"
+        android:maxLength="26" />
+
+    <EditText
+        android:id="@+id/addedit_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/addedit_description_hint"
+        android:inputType="textMultiLine"
+        android:maxLength="256" />
+
+    <EditText
+        android:id="@+id/addedit_sortOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/addedit_sortOrder_hint"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/addedit_saveButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:drawableStart="@android:drawable/ic_menu_save"
+        android:maxLength="9"
+        android:text="@string/addedit_save_btn" />
+</LinearLayout>
