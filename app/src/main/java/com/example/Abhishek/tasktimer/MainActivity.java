@@ -26,7 +26,7 @@ import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.Abhishek.tasktimer.debug.TestData;
+//import com.example.Abhishek.tasktimer.debug.TestData;
 
 import java.security.InvalidParameterException;
 
@@ -116,10 +116,10 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewAdapt
             case R.id.main_menue_showAbout:
                 showAboutDialog();
                 break;
-            case R.id.main_menue_Generate:
-                TestData.generateTestData(getContentResolver());
-                Toast.makeText(this,"generate is called ",Toast.LENGTH_LONG).show();
-                break;
+//            case R.id.main_menue_Generate:
+//                TestData.generateTestData(getContentResolver());
+//                Toast.makeText(this,"generate is called ",Toast.LENGTH_LONG).show();
+//                break;
             case android.R.id.home:
                 Log.d(TAG, "onOptionsItemSelected: home button selected ");
                 addEdit_fragment addEditFragment = (addEdit_fragment) getSupportFragmentManager().findFragmentById(R.id.task_detail_container);
